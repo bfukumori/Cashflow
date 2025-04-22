@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Cashflow.Exception {
+namespace Cashflow.Domain.Reports {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Cashflow.Exception {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class ResourceErrorMessages {
+    public class ResourceReportGenerationMessages {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ResourceErrorMessages() {
+        internal ResourceReportGenerationMessages() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Cashflow.Exception {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Cashflow.Exception.ResourceErrorMessages", typeof(ResourceErrorMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Cashflow.Domain.Reports.ResourceReportGenerationMessages", typeof(ResourceReportGenerationMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,56 +61,92 @@ namespace Cashflow.Exception {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to amount must be greater than 0..
+        ///   Looks up a localized string similar to Amount.
         /// </summary>
-        public static string AMOUNT_MUST_BE_GREATER_THAN_ZERO {
+        public static string AMOUNT {
             get {
-                return ResourceManager.GetString("AMOUNT_MUST_BE_GREATER_THAN_ZERO", resourceCulture);
+                return ResourceManager.GetString("AMOUNT", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to date cannot be in the future..
+        ///   Looks up a localized string similar to Cash.
         /// </summary>
-        public static string DATE_CAN_NOT_BE_IN_THE_FUTURE {
+        public static string CASH {
             get {
-                return ResourceManager.GetString("DATE_CAN_NOT_BE_IN_THE_FUTURE", resourceCulture);
+                return ResourceManager.GetString("CASH", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to expense not found..
+        ///   Looks up a localized string similar to Credit card.
         /// </summary>
-        public static string EXPENSE_NOT_FOUND {
+        public static string CREDIT_CARD {
             get {
-                return ResourceManager.GetString("EXPENSE_NOT_FOUND", resourceCulture);
+                return ResourceManager.GetString("CREDIT_CARD", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to paymentType is not valid..
+        ///   Looks up a localized string similar to $.
         /// </summary>
-        public static string INVALID_PAYMENT_TYPE {
+        public static string CURRENCY_SYMBOL {
             get {
-                return ResourceManager.GetString("INVALID_PAYMENT_TYPE", resourceCulture);
+                return ResourceManager.GetString("CURRENCY_SYMBOL", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to title is required..
+        ///   Looks up a localized string similar to Date.
         /// </summary>
-        public static string TITLE_REQUIRED {
+        public static string DATE {
             get {
-                return ResourceManager.GetString("TITLE_REQUIRED", resourceCulture);
+                return ResourceManager.GetString("DATE", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to unknown error.
+        ///   Looks up a localized string similar to Debit card.
         /// </summary>
-        public static string UNKNOWN_ERROR {
+        public static string DEBIT_CARD {
             get {
-                return ResourceManager.GetString("UNKNOWN_ERROR", resourceCulture);
+                return ResourceManager.GetString("DEBIT_CARD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string DESCRIPTION {
+            get {
+                return ResourceManager.GetString("DESCRIPTION", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Eletronic transfer.
+        /// </summary>
+        public static string ELETRONIC_TRANSFER {
+            get {
+                return ResourceManager.GetString("ELETRONIC_TRANSFER", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment Type.
+        /// </summary>
+        public static string PAYMENT_TYPE {
+            get {
+                return ResourceManager.GetString("PAYMENT_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string TITLE {
+            get {
+                return ResourceManager.GetString("TITLE", resourceCulture);
             }
         }
     }

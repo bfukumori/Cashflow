@@ -3,7 +3,7 @@ using Cashflow.Communication.Responses.Expenses;
 using Cashflow.Domain.Repositories.Expenses;
 
 namespace Cashflow.Application.UseCases.Expenses.GetAll;
-public class GetAllExpensesUseCase(IExpensesRepository _expensesRepository, IMapper _mapper) : IGetAllExpensesUseCase
+public class GetAllExpensesUseCase(IExpensesReadOnlyRepository _expensesRepository, IMapper _mapper) : IGetAllExpensesUseCase
 {
     public async Task<ResponseExpensesJson> Execute()
     {
